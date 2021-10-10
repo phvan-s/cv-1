@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 0 auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: bold;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+hr {
+  border-color: #EAF6F6;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 10px;
+  width: 6%;
+}
+
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin:10px 20px;
+}
+
+.cop{
+  color:#EAF6F6;
+}
+
+/*https://colorhunt.co/palette/fcffa6c1ffd7b5deffcab8ff*/
+.top-container {
+  background-color: #B5DEFF;
+  position: relative;
+  padding-top: 150px;
+}
+
+.middle-container{
+  font-weight: bold;
+  background-color: #C1FFD7;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  font-weight: bold;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  color: #11999E;
+}
+
+.foot{
+    word-spacing: 20px;
+}
+
+
+.pro {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  top: 500px;
+  bottom: 200px;
+  left: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 400px;
+  top: 50px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.comp-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  border-radius: 50%;
+}
+
+.cam-img {
+  width: 25%;
+  height: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.profile{
+  padding-top: 100px;
+}
+
+.BUTTON_YDY {
+   background: #11999E;
+   background-image: -webkit-linear-gradient(top, #11999E, #66BFBF);
+   background-image: -moz-linear-gradient(top, #11999E, #66BFBF);
+   background-image: -ms-linear-gradient(top, #11999E, #66BFBF);
+   background-image: -o-linear-gradient(top, #11999E, #66BFBF);
+   background-image: -webkit-gradient(to bottom, #11999E, #66BFBF);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #EAF6F6;
+   font-family: Verdana;
+   font-size: 20px;
+   font-weight: 500;
+   padding: 12px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+ }
+
+.BUTTON_YDY:hover {
+   background: #5DF276;
+   border: solid #FFFFFF 1px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
